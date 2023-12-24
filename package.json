@@ -11,7 +11,8 @@
 	"main": "dist/tstl-simple-inline-function.cjs",
 	"type": "commonjs",
 	"scripts": {
-		"build": "tsc",
+		"build": "tsc && npm run renameCjs && npm run prettier",
+		"renameCjs": "node -e \"require('fs').renameSync('dist/tstl-simple-inline-function.js', 'dist/tstl-simple-inline-function.cjs')\"",
 		"prettier": "prettier --write ./"
 	},
 	"devDependencies": {
