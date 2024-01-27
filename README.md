@@ -1,5 +1,7 @@
 # tstl-simple-inline-func
 
+[![CI](https://github.com/thinknathan/tstl-simple-inline-func/actions/workflows/ci.yml/badge.svg)](https://github.com/thinknathan/tstl-simple-inline-func/actions/workflows/ci.yml)
+
 TypeScriptToLua plugin that performs [inline expansion](https://en.wikipedia.org/wiki/Inline_expansion) to functions that you annotate.
 
 This plugin is intended to handle functions that do NOT take parameters. If you need to handle parameters, try [TSTL-extensions by @Cheatoid](https://github.com/Cheatoid/TSTL-extensions) instead.
