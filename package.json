@@ -9,6 +9,9 @@
 	"author": "Nathan Bolton (https://thinknathan.ca/)",
 	"license": "CC0-1.0",
 	"main": "dist/tstl-simple-inline-function.cjs",
+	"files": [
+		"dist/tstl-simple-inline-function.cjs"
+	],
 	"type": "commonjs",
 	"scripts": {
 		"ci": "tsc --noEmit && npm run lint",
