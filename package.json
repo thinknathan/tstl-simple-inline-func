@@ -1,7 +1,7 @@
 {
 	"name": "tstl-simple-inline-func",
 	"version": "1.0.0",
-	"description": "TypeScriptToLua plugin that performs inline expansion to simple functions",
+	"description": "TypeScriptToLua plugin that performs inline expansion to simple functions without arguments",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/thinknathan/tstl-simple-inline-func.git"
