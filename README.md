@@ -8,6 +8,8 @@ This plugin is intended to handle functions that do NOT take parameters. If you 
 
 Inline expansion may or may not provide any performance benefit depending on your Lua runtime. Always measure with real world code.
 
+:exclamation: Use this and any code transformation plugin with caution. Mistakes are possible.
+
 ## Usage
 
 Add a comment containing `@inlineStart` before the function you want to inline, and `@inlineEnd` directly afterwards.
@@ -94,9 +96,9 @@ Requires TSTL >= 1.22.0
 1. Install this plugin
 
 ```bash
-yarn add git+https://git@github.com/thinknathan/tstl-simple-inline-func.git#^1.0.0 -D
+yarn add tstl-simple-inline-func -D
 # or
-npm install git+https://git@github.com/thinknathan/tstl-simple-inline-func.git#^1.0.0 --save-dev
+npm install tstl-simple-inline-func --save-dev
 ```
 
 2. Add `tstl-simple-inline-func` to `tstl.luaPlugins` in `tsconfig.json`
