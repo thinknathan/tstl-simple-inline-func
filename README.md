@@ -1,6 +1,6 @@
 # tstl-simple-inline-func
 
-[![CI](https://github.com/thinknathan/tstl-simple-inline-func/actions/workflows/ci.yml/badge.svg)](https://github.com/thinknathan/tstl-simple-inline-func/actions/workflows/ci.yml)
+[![CI](https://github.com/thinknathan/tstl-simple-inline-func/actions/workflows/ci.yml/badge.svg)](https://github.com/thinknathan/tstl-simple-inline-func/actions/workflows/ci.yml) ![GitHub License](https://img.shields.io/github/license/thinknathan/tstl-simple-inline-func)
 
 TypeScriptToLua plugin that performs [inline expansion](https://en.wikipedia.org/wiki/Inline_expansion) to functions that you annotate.
 
