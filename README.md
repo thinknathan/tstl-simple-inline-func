@@ -93,6 +93,8 @@ local BAR =  7
 
 Requires TSTL >= 1.22.0
 
+`removeComments` in `tsconfig` cannot be `true`
+
 1. Install this plugin
 
 ```bash
