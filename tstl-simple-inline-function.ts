@@ -1,4 +1,4 @@
-import * as ts from 'typescript';
+import type { Program } from 'typescript';
 import * as tstl from 'typescript-to-lua';
 
 // Find every instance of inline start and end
@@ -88,7 +88,7 @@ function removeInlinedFunction(file: tstl.EmitFile) {
 
 const plugin: tstl.Plugin = {
 	afterEmit: (
-		_program: ts.Program,
+		_program: Program,
 		_options: tstl.CompilerOptions,
 		emitHost: tstl.EmitHost,
 		result: tstl.EmitFile[],

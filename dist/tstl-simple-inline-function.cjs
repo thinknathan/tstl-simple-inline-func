@@ -93,7 +93,6 @@ const plugin = {
 		}
 		// Display log of function names
 		changedFunctions.forEach((changedFunctionName) => {
-			// @ts-expect-error Missing definition for `console`
 			console.log(`Inlining function ${changedFunctionName}`);
 		});
 	},
